@@ -1,0 +1,41 @@
+
+.heading {
+  height: 100px;
+}
+
+.boxed {
+  height: 400px;
+  width: 480px; 
+}
+
+ul {
+  padding: 15px;
+  background-color: grey;
+}
+
+li {
+  align-items: center;
+  display: inline-block;
+}
+
+#hero, #three, #two {
+  width:960px; 
+  margin:0 auto;
+}
+
+#three {
+  padding: 20px;
+}
+
+#second, #third {
+  margin-left: 30px;
+}
+
+p {
+  height: 400px;
+  width: 450px;
+  border: 1px solid #ccc;
+  overflow: scroll;
+  overflow: auto;
+  display: inline-block;
+}
