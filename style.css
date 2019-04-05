@@ -14,7 +14,7 @@ header li {
 }
 
 #headerimg {
-  margin-left: 120px;
+  margin-left: 135px;
   margin-top: 20px;
 }
 
@@ -72,7 +72,7 @@ footer  {
 }
 
 button {
-  margin-left: 3%;
+  margin-left: 3.5%;
   padding-bottom: 10px;
   padding-left: 10px;
   margin-bottom: 2%;
@@ -82,7 +82,7 @@ button {
   color: white;
   background: black;
   font-size: medium;
-  transition: background-color 350ms ease;
+  transition: background-color 350ms;
 }
 
 button:hover {
