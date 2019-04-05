@@ -1,41 +1,80 @@
-
-.heading {
-  height: 100px;
+a:visited{
+  color: gray;
 }
 
-.boxed {
-  height: 400px;
-  width: 480px; 
+header ul{
+  width:960px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-ul {
-  padding: 15px;
-  background-color: grey;
+header li{
+  display: inline;
+  margin-right: 80px;
 }
 
-li {
-  align-items: center;
-  display: inline-block;
+main{
+  background-color: white;
+  color: gray;
+  width: 960px; 
+  margin: 0 auto;
 }
 
-#hero, #three, #two {
-  width:960px; 
-  margin:0 auto;
+main img{
+  margin-top: 30px;
 }
 
-#three {
-  padding: 20px;
+main li{
+  float:left;
+  margin-right: 30px;
 }
 
-#second, #third {
-  margin-left: 30px;
+main li:last-child{
+  margin-right: 0px;
 }
 
-p {
-  height: 400px;
+.div3{
+  clear: both;
+}
+
+section img{
+  float: left;
+}
+
+h2{
+  padding-top: 30px;
+  padding-bottom: 15px;
+  margin-left: 515px;
+  font-size: larger;
+}
+
+p{
+  height: 310px;
   width: 450px;
-  border: 1px solid #ccc;
   overflow: scroll;
-  overflow: auto;
-  display: inline-block;
+  font-size: medium;
+  margin-left: 515px;
+}
+
+button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3%;
+  margin-top: 15px;
+  margin-bottom: 2%;
+  color: white;
+  background: black;
+  font-size: medium;
+  transition: background-color 350ms ease;
+}
+
+button:hover {
+  background-color: rgb(0, 255, 13);
+}
+
+footer{
+  background-color: rgb(43, 48, 48);
+  padding-top: 100px;
 }
